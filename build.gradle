@@ -14,6 +14,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    implementation group: 'org.processing', name: 'core', version: '3.3.7'
 }
 test {
     useJUnitPlatform()
